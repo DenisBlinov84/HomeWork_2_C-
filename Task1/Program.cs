@@ -12,6 +12,14 @@ int TheSecDigit(int num)
 {
     return (num / 10 % 10);
 }
+if (n_1 > 99 & n_1 < 1000)
+{
+    Console.Write("Вторая цифра: ");
+    Console.WriteLine(TheSecDigit(n_1));
+}
+else
+{
+    Console.Write("Число НЕ трёхзначное ");
+}
 
-Console.Write("Вторая цифра: ");
-Console.WriteLine(TheSecDigit(n_1));
+
